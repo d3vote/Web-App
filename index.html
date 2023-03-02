@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="center-panel">
+      <div class="chat-wrapper">
+        <div class="chat-inner">
+          <div class="sorter-wrapper">
+            <div class="sorter">
+              <h1 class="w-500 s-16">Recent messages</h1>
+              <img class="svg"  src="images/arrow.svg" alt="open">
+            </div>
+            <img class="svg"  src="images/edit_button.svg" alt="edit chats">
+          </div>
+          <div class="groups-selector-outer">
+            <div class="groups-selector-wrapper">
+              <h1 onclick="setChat()"><div>Chats</div></h1>
+              <h1 onclick="setGroup()"><div>Groups</div></h1>
+            </div>
+            <div class="groups-selector"></div>
+          </div>
+          <div class="chats-list">
+            <div class="message">
+              <div class="avatar">
+                <img src="images/user1.png" alt="">
+              </div>
+              <div class="message-info">
+                <div class="message-top">
+                  <h1>Ope</h1>
+                  <h2>13:00</h2>
+                </div>
+                <h2>Gee, its been good news all day. i met someone special today. she's really pretty.</h2>
+              </div>
+            </div>
+            <div class="message message-selected">
+              <div class="avatar">
+                <img src="images/user2.png" alt="">
+              </div>
+              <div class="message-info">
+                <div class="message-top">
+                  <h1>Bambam</h1>
+                  <h2>13:00</h2>
+                </div>
+                <h2>Are you coming to class tomorrow? we have test.</h2>
+              </div>
+            </div>
+            <div class="message">
+              <div class="avatar">
+                <img src="images/user3.png" alt="">
+              </div>
+              <div class="message-info">
+                <div class="message-top">
+                  <h1>Name Name</h1>
+                  <h2>13:00</h2>
+                </div>
+                <h2>I miss you dear, when are you coming to see me. </h2>
+              </div>
+            </div>
+            <div class="message">
+              <div class="avatar">
+                <img src="images/user4.png" alt="">
+              </div>
+              <div class="message-info">
+                <div class="message-top">
+                  <h1>Name Name</h1>
+                  <h2>13:00</h2>
+                </div>
+                <h2>Baba what sup na, you still de Lagos?</h2>
+              </div>
+            </div>
+            <div class="message">
+              <div class="avatar">
+                <img src="images/user5.png" alt="">
+              </div>
+              <div class="message-info">
+                <div class="message-top">
+                  <h1>Name Name</h1>
+                  <h2>13:00</h2>
+                </div>
+                <h2>Have you called them?</h2>
+              </div>
+            </div>
+            <div class="message">
+              <div class="avatar">
+                <img src="images/user6.png" alt="">
+              </div>
+              <div class="message-info">
+                <div class="message-top">
+                  <h1>Name Name</h1>
+                  <h2>13:00</h2>
+                </div>
+                <h2>By brother is the best, na my helper be that oh.</h2>
+              </div>
+            </div>
+            <div class="message">
+              <div class="avatar">
+                <img src="images/user7.png" alt="">
+              </div>
+              <div class="message-info">
+                <div class="message-top">
+                  <h1>Name Name</h1>
+                  <h2>13:00</h2>
+                </div>
+                <h2>Landlady called a meeting by 3pm today, she wants to talk about the light issues. Be there!</h2>
+              </div>
+            </div>
+            <div class="message">
+              <div class="avatar">
+                <img src="images/user8.png" alt="">
+              </div>
+              <div class="message-info">
+                <div class="message-top">
+                  <h1>Name Name</h1>
+                  <h2>13:00</h2>
+                </div>
+                <h2>Testing Message</h2>
+              </div>
+            </div>
+            <div class="message">
+              <div class="avatar">
+                <img src="images/user1.png" alt="">
+              </div>
+              <div class="message-info">
+                <div class="message-top">
+                  <h1>Ope</h1>
+                  <h2>13:00</h2>
+                </div>
+                <h2>Gee, its been good news all day. i met someone special today. she's really pretty.</h2>
+              </div>
+            </div>
+            <div class="message">
+              <div class="avatar">
+                <img src="images/user2.png" alt="">
+              </div>
+              <div class="message-info">
+                <div class="message-top">
+                  <h1>Bambam</h1>
+                  <h2>13:00</h2>
+                </div>
+                <h2>Are you coming to class tomorrow? we have test.</h2>
+              </div>
+            </div>
+            <div class="message">
+              <div class="avatar">
+                <img src="images/user3.png" alt="">
+              </div>
+              <div class="message-info">
+                <div class="message-top">
+                  <h1>Name Name</h1>
+                  <h2>13:00</h2>
+                </div>
+                <h2>I miss you dear, when are you coming to see me. </h2>
+              </div>
+            </div>
+            <div class="message">
+              <div class="avatar">
+                <img src="images/user4.png" alt="">
+              </div>
+              <div class="message-info">
+                <div class="message-top">
+                  <h1>Name Name</h1>
+                  <h2>13:00</h2>
+                </div>
+                <h2>Baba what sup na, you still de Lagos?</h2>
+              </div>
+            </div>
+            <div class="message">
+              <div class="avatar">
+                <img src="images/user5.png" alt="">
+              </div>
+              <div class="message-info">
+                <div class="message-top">
+                  <h1>Name Name</h1>
+                  <h2>13:00</h2>
+                </div>
+                <h2>Have you called them?</h2>
+              </div>
+            </div>
+            <div class="message">
+              <div class="avatar">
+                <img src="images/user6.png" alt="">
+              </div>
+              <div class="message-info">
+                <div class="message-top">
+                  <h1>Name Name</h1>
+                  <h2>13:00</h2>
+                </div>
+                <h2>By brother is the best, na my helper be that oh.</h2>
+              </div>
+            </div>
+            <div class="message">
+              <div class="avatar">
+                <img src="images/user7.png" alt="">
+              </div>
+              <div class="message-info">
+                <div class="message-top">
+                  <h1>Name Name</h1>
+                  <h2>13:00</h2>
+                </div>
+                <h2>Landlady called a meeting by 3pm today, she wants to talk about the light issues. Be there!</h2>
+              </div>
+            </div>
+            <div class="message">
+              <div class="avatar">
+                <img src="images/user8.png" alt="">
+              </div>
+              <div class="message-info">
+                <div class="message-top">
+                  <h1>Name Name</h1>
+                  <h2>13:00</h2>
+                </div>
+                <h2>Testing Message</h2>
+              </div>
+            </div>
+            <div class="message">
+              <div class="avatar">
+                <img src="images/user1.png" alt="">
+              </div>
+              <div class="message-info">
+                <div class="message-top">
+                  <h1>Name Name</h1>
+                  <h2>13:00</h2>
+                </div>
+                <h2>Testing Message</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="chat">
+          <div class="top-bar">
+            <div class="left-chatter">
+              <div class="avatar">
+                <img src="images/user2.png" alt="">
+              </div>
+              <div class="chatter-info">
+                <h1>Bambam</h1>
+                <h2>Last seen recently</h2>
+              </div>
+            </div>
+            <button onclick="changeColor()">Change Mode</button>
+          </div>
+          <div class="input-panel">
+            <div class="actual-chat">
+              <div id="chatbox" class="actual-chat-inside">
+                <div class="chat-bottom">
+                  <div class="msg-wrapper">
+                    <div class="msg friend-msg">
+                      <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                      <div class="msg-databox">
+                        <h3>21:20</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="msg-wrapper">
+                    <div class="msg user-msg">
+                      <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                      <div class="msg-databox">
+                        <h3>21:20</h3>
+                        <img src="images/read.svg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="msg-wrapper">
+                    <div class="msg user-msg">
+                      <p>Single message</p>
+                      <div class="msg-databox">
+                        <h3>21:20</h3>
+                        <img src="images/read.svg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="msg-wrapper">
+                    <div class="msg user-msg">
+                      <p>Lorem ipsum dolor sit amet, mei eu feugiat conclusionemque, id probo eligendi perfecto est, vim at moderatius deterruisset. Cum ex persius senserit, in dicat aperiam sensibus est. In usu verterem dissentias, an cum utinam doctus inermis, minim dicam ius ad. Eos zril iudico facilisi no, te cum simul nullam. Causae tacimates ei mea. Te alia aliquando interesset usu.</p>
+                      <div class="msg-databox">
+                        <h3>21:20</h3>
+                        <img src="images/read.svg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="input-wrapper">
+              <div class="input-wrapper-inside">
+                <div class="emoji-btn-wrapper">
+                  <div class="emoji-btn">
+                    <img src="images/emoji.svg" alt="add emoji">
+                  </div>
+                </div>
+                <input type="text" placeholder="Message">
+                <div class="emoji-btn-wrapper">
+                  <div class="emoji-btn">
+                    <img src="images/attach.svg" alt="attach file">
+                  </div>
+                </div>
+              </div>
+              <div class="send-btn">
+                <img src="images/send.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar">
+      <img  class="logo svg" src="images/logo-white.png" alt="">
+      <div class="navbar-inner">
+        <div class="nav-icon nav-selected">
+          <img class="svg"  src="images/chat.svg" alt="">
+        </div>
+        <div class="nav-icon">
+          <img class="svg"  src="images/invite.svg" alt="">
+        </div>
+      </div>
+      <div class="navbar-inner">
+        <div class="nav-icon">
+          <img class="svg"  src="images/cog.svg" alt="">
+        </div>
+        <div class="nav-icon">
+          <img class="svg"  src="images/user.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <script src="js/scroll-chat.js"></script>
+    <script src="js/dark-mode.js"></script>
+    <script src="js/groups-toggle.js"></script>
+  </body>
+</html>
